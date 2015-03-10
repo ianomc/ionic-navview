@@ -20,3 +20,5 @@ This simple Ionic app shows how to use ion-nav-view with templates and states.
 - ion-nav-view's expect ion-views inside them.
 
 - Title bars (exercise 3) and back buttons (exercise 4) are so common, that ionic lets you add them with very little effort on your part, so Google them rather than trying to write your own.
+
+- Have a look at Ionic's tutorial on routing: [Build an App with Navigation and Routing - Part 1](http://learn.ionicframework.com/formulas/navigation-and-routing-part-1/).
