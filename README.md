@@ -10,3 +10,13 @@ This simple Ionic app shows how to use ion-nav-view with templates and states.
 3. Add a title bar that displays a title for each state/template.
 
 4. Add a back button to move back through the states.
+
+## Notes
+
+- You can include templates in index.html itself using a script of type "text/ng-template". They should go in your body tag.
+
+- When you change state, the template for the new state is inserted between the <ion-nav-view> and </ion-nav-view> tags. Everytime the state changes, the HTML between those tags is replaced.
+
+- ion-nav-view's expect ion-views inside them.
+
+- Title bars (exercise 3) and back buttons (exercise 4) are so common, that ionic lets you add them with very little effort on your part, so Google them rather than trying to write your own.
