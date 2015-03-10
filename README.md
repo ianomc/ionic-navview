@@ -15,7 +15,7 @@ This simple Ionic app shows how to use ion-nav-view with templates and states.
 
 - You can include templates in index.html itself using a script of type "text/ng-template". They should go in your body tag.
 
-- When you change state, the template for the new state is inserted between the <ion-nav-view> and </ion-nav-view> tags. Everytime the state changes, the HTML between those tags is replaced.
+- When you change state, the template for the new state is inserted between the &lt;ion-nav-view&gt; and &lt;/ion-nav-view&gt; tags. Everytime the state changes, the HTML between those tags is replaced.
 
 - ion-nav-view's expect ion-views inside them.
 
