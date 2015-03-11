@@ -27,6 +27,11 @@
         .state('state2', {
           url: '/state2',
           templateUrl: 'state2.html'
+        })
+		
+		.state('state3', {
+          url: '/state3',
+          templateUrl: 'state3.html'
         });
 
       })
@@ -53,6 +58,14 @@
         </ion-content>
       </ion-view>
     </script>
-      
+   
+	<script type="text/ng-template" id="state3.html">
+      <ion-view view-title="Three">
+        <ion-content>
+          <h2>I am state 3!</h2>
+        </ion-content>
+      </ion-view>
+    </script>
+   
   </body>
 </html>
